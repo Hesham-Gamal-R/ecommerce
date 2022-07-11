@@ -1,0 +1,18 @@
+.card img {
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.container .card-title-main,
+.container .card-text-main {
+  color: rgba(69, 69, 69, 0.8);
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .container .card--main-main,
+  .container .card-text-main {
+    font-size: calc(1rem + 1vw) !important;
+  }
+}
